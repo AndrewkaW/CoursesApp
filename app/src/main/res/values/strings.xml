@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CoursesApp</string>
+    <string name="entrance">Вход</string>
+    <string name="email">Email</string>
+    <string name="example_mail">example@gmail.com</string>
+    <string name="password">Пароль</string>
+    <string name="input_password">Введите пароль</string>
+    <string name="no_account">Нету аккаунта?</string>
+    <string name="registration">Регистрация</string>
+    <string name="forgot_password">Забыл пароль</string>
+    <string name="vk_ru">vk.ru</string>
 </resources>
