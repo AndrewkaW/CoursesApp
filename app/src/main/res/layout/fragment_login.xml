@@ -124,7 +124,7 @@
             app:layout_constraintTop_toBottomOf="@+id/tv_no_account" />
 
         <View
-            android:id="@+id/view"
+            android:id="@+id/stroke"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginTop="32dp"
@@ -137,32 +137,32 @@
         <ImageButton
             android:id="@+id/btn_vk"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="8dp"
-            android:background="null"
+            android:background="@drawable/vk_bg_btn"
             android:contentDescription="@string/vk_ru"
-            android:scaleType="fitStart"
-            android:src="@drawable/btn_vk"
+            android:scaleType="center"
+            android:src="@drawable/ic_vk"
             app:layout_constraintCircleRadius="30dp"
             app:layout_constraintEnd_toStartOf="@id/btn_ok"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/stroke"
             tools:layout_editor_absoluteY="514dp" />
 
         <ImageButton
             android:id="@+id/btn_ok"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="32dp"
-            android:background="null"
+            android:background="@drawable/ok_bg_btn"
             android:contentDescription="@string/vk_ru"
-            android:scaleType="fitEnd"
-            android:src="@drawable/ok_btn"
+            android:scaleType="center"
+            android:src="@drawable/ic_ok"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btn_vk"
-            app:layout_constraintTop_toBottomOf="@+id/view" />
+            app:layout_constraintTop_toBottomOf="@+id/stroke" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
